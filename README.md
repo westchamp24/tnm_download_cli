@@ -19,6 +19,6 @@ A CLI for downloading data from the USGS National Map
     optional arguments:   -h, --help            show this help message and exit   -t THREADS, --threads THREADS
                             The number of threads used to download data
 
-The CLI makes use of the inquirer package to make the selection of products much more user friendly from the command line.  Use the up/down arrows to navigate through the list of available products (which will vary by area), and use the space bar to select/de-select products.
+The CLI makes use of the inquirer package to make the selection of products much more user friendly from the command line.  Use the up/down arrows to navigate through the list of available products (which will vary by area), and use the space bar to select/de-select products.  Once desired produces are selected - press Enter to commence downloading.
 
 ![](demo.gif)
